@@ -7,7 +7,7 @@
 //
 
 #import "WFViewController.h"
-
+#import "UIView+Frame.h"
 @interface WFViewController ()
 
 @end
@@ -17,13 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    NSLog(@"%lf",self.view.width);
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

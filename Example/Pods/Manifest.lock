@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WFFoundationExtension (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WFFoundationExtension (from `../`)
+
+EXTERNAL SOURCES:
+  WFFoundationExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WFFoundationExtension: 7adeea4736fe32e7780cb80434c165b7fe2908bd
+
+PODFILE CHECKSUM: 2378cb12624e315a41471a84c2666a3ded481932
+
+COCOAPODS: 1.2.0
