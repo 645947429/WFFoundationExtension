@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WFFoundationExtension_Example' do
+  pod 'WFFoundationExtension', :path => '../'
+
+  target 'WFFoundationExtension_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
