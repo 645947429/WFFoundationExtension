@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dickaccount@163.com' => '645947429@qq.com' }
-  s.source           = { :git => 'hhttps://github.com/645947429/WFFoundationExtension.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/645947429/WFFoundationExtension.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
